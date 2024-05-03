@@ -1,0 +1,35 @@
+{
+  "name": "snofi-msl",
+  "version": "0.0.1",
+  "description": "Medical Science Liaison Locator",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://google.com",
+  "repository": {
+    "url": "https://github.com/kisnaa0709/snofi-msl"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "Medical Science Liaison Locator"
+  ],
+  "author": "ted.kishan",
+  "license": "ISC",
+  "devDependencies": {
+    "@headlessui/react": "^1.7.19",
+    "@types/react": "^18.3.1",
+    "@types/react-copy-to-clipboard": "^5.0.7",
+    "react": "^18.3.1",
+    "tailwindcss": "^3.4.3",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "formik": "^2.4.6",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-router-dom": "^6.23.0",
+    "yup": "^1.4.0"
+  }
+}
